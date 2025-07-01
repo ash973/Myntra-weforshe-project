@@ -1,0 +1,39 @@
+/* Styling for .product2 elements */
+.product2 {
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+  background-color: rgb(115, 0, 0) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product2:hover {
+  transform: scale(1.05); /* Scale up slightly on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7); /* Shadow effect on hover */
+}
+
+/* Additional styles for product image and info */
+.product2_image {
+  max-width: 100%;
+  height: auto;
+}
+
+.product2_info {
+  margin-top: 10px;
+  color: white;
+}
+
+.product2_type {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.product2_discount {
+  color: white;
+  font-size: 14px;
+}
+
+/* Background image for the specific webpage */
